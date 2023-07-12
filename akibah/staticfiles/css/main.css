@@ -1,0 +1,200 @@
+.title{
+    color: orange;
+    font-weight: 700;
+}
+
+.navbar{
+    background-color: white;
+}
+
+header {
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+  }
+main {
+    margin-top: 64px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+   
+  }
+
+  .services-container::-webkit-scrollbar{
+    display: none;
+}
+
+/* Styles par défaut */
+.singleservice {
+    display: flex; /* Utilise le flexbox pour aligner le contenu horizontalement */
+    align-items: center; /* Centre le contenu verticalement */
+    margin: 0 10px; /* Ajoute une marge horizontale pour espacer les services */
+    flex-direction: column;
+    position: relative;
+  }
+  .services-container {
+    display: flex;
+    overflow-x: auto; /* Ajoute une barre de défilement horizontale si nécessaire */
+    width: 100%; /* Ajuste la largeur du conteneur parent */
+    /* padding: 10px;  */
+
+  }
+  
+  /* Styles pour les appareils mobiles */
+  @media (max-width: 767px) {
+    .singleservice {
+      width: 13%; /* Utilise toute la largeur disponible */
+      text-align: center; /* Centre le contenu */
+    }
+  
+    .servicetitle {
+      font-size: 14px; /* Réduit la taille de la police */
+    }
+  }
+
+  .servicetitle {
+    font-size: 14px; /* Réduit la taille de la police */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(178, 34, 34, 0.541); /* Couleur du carré avec une opacité de 50% */
+    border-radius: 10px;
+  }
+  
+  .overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 47, 255, 0.555); /* Couleur du carré avec une opacité de 50% */
+    border-radius: 10px;
+  }
+  
+  .overlay3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(255, 230, 0, 0.555); /* Couleur du carré avec une opacité de 50% */
+    border-radius: 10px;
+  }
+  
+  .overlay4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(77, 105, 0, 0.555); /* Couleur du carré avec une opacité de 50% */
+    border-radius: 10px;
+  }
+
+  .overlay5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(255, 0, 0, 0.555); /* Couleur du carré avec une opacité de 50% */
+    border-radius: 10px;
+  }
+
+  .overlay6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 255, 255, 0.562); /* Couleur du carré avec une opacité de 50% */
+    border-radius: 10px;
+  }
+
+  .overlay7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(255, 187, 0); /* Couleur du carré avec une opacité de 50% */
+    border-radius: 10px;
+  }
+
+  .button_profile{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 5px;
+    border: 1px solid green;
+  }
+  .button_label{
+    color:black;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+.button_action_label{
+    color:black;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 10px;
+    margin: 4px;
+}
+i{
+    color: orange;
+}
+.actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+/* posttt */
+
+
+
+.bottom-app-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+    /* box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2); */
+  }
+  
+  .bottom-app-bar__navigation {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .bottom-app-bar__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  .plus {
+    margin-top: -15px;
+  }
+  
+  .bottom-app-bar__text {
+    margin-top: 2px;
+  }
+  
+  .bottom-app-bar__item:hover {
+    background-color: #ddd;
+  }
+  
